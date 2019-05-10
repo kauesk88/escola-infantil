@@ -1,0 +1,233 @@
+$cemlarg: 100%;
+$duzalt: 200px;
+
+html body{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.banner{
+    width: $cemlarg;
+    height: auto;
+}
+
+.banner img{
+    width: $cemlarg;
+    height: auto;
+}
+
+.sobre{
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 110px 0 110px 0;
+}
+
+.sobre-img{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: $duzalt;
+}
+.sobre img{
+    width: 200px;
+    height: $duzalt;
+}
+
+.sobre-p{
+    width: 70%;
+    height: $duzalt;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.atividades{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 0px 0 0px 0;
+}
+.card{
+    
+    margin: 5px 50px 5px 50px;
+    width: 25%;
+    height: 500px;
+    color: black;
+}
+
+.card1{
+    border: 2px solid red !important;
+}
+
+.card2{
+    border: 2px solid blue !important;
+}
+
+.card3{
+    border: 2px solid green !important;
+}
+
+.card img{
+    height: 350px;
+    width: $cemlarg;
+}
+
+.card-info{
+    text-align: center;
+}
+
+.card-info1{
+    background-color: rgba(255, 38, 38, 0.7);
+    border-top: 2px solid red;
+}
+.card-info2{
+    background-color: rgba(0, 62, 255, 0.7);
+    border-top: 2px solid blue;
+}
+.card-info3{
+   background-color: rgba(0, 181, 9, 0.7);
+   border-top: 2px solid green;
+}
+
+.contato{
+    width: $cemlarg;
+}
+
+.infos{
+    margin: 110px 0 0 0;
+    text-align: center;
+    height: auto;
+    width: $cemlarg;
+    background-color: rgba(255, 241, 38, 0.863);
+}
+
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    width: $cemlarg;
+    margin: 20px 0 20px 0;
+}
+.formulario form{
+    width: 40%;
+}
+
+footer{
+    width: $cemlarg;
+    text-align: center;
+    background-color: gold;
+    height: 50px;
+}
+
+footer p{
+    padding-top: 10px; 
+}
+
+@media screen and (min-width: 600px) and (max-width: 1200px){
+    .sobre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sobre-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    .sobre-p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 5px 0 5px;
+        text-align: center;
+    }
+
+    .atividades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card{  
+        margin: 5px 10px 5px 10px;
+        width: 45%;
+        height: auto;
+    }
+    .card img{
+        height: auto;
+        width: $cemlarg;
+        margin: 2px;
+    }
+    
+    .card-info{
+        height: auto;
+        margin: 5px 10px 5px 10px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 600px){
+    .sobre{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .sobre-img{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+   
+    .sobre-p{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin: 0 5px 0 5px;
+        text-align: center;
+    }
+
+    .atividades{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .card{  
+        margin: 5px 10px 5px 10px;
+        width: 100%;
+        height: auto;
+    }
+    .card img{
+        height: auto;
+        width: $cemlarg;
+        margin: 2px;
+    }
+    
+    .card-info{
+        height: auto;
+        margin: 5px 10px 5px 10px;
+        text-align: center;
+    }
+    .titulo{
+        text-align: center;
+        height: 70px;
+        width: $cemlarg;
+        background-color: red;
+    }
+    
+    .formulario{
+        display: flex;
+        justify-content: center;
+        width: $cemlarg;
+        margin: 30px 0 30px 0;
+    }
+    .formulario form{
+        width: 90%;
+    }
+}
